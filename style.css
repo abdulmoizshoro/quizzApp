@@ -1,0 +1,121 @@
+
+body{
+    background: url("main.jpg");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+     background-size: 100% 100%;
+     color:  white;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 2px dashed whitesmoke;
+    width: fit-content;
+    margin: 0 auto;
+}
+a{
+    font-size: 1.3em;
+    color: blue;
+}
+
+.main{
+    width: 500px;
+    border: 2px solid rgb(204, 194, 194);
+    margin: 50px auto;
+    padding: 20px;
+    -webkit-border-radius: 50px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius: 50px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-radius: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: transparent;
+    text-align: center;
+}
+input.inp{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: 2px solid rgb(212, 195, 162);
+    color: rgb(7, 51, 87);
+    
+}
+input:focus{
+    background-color: rgb(168, 240, 216);
+    border: 2px solid rgb(99, 219, 203);
+    color: black;
+}
+button {
+    background-color: transparent;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid rgb(93, 166, 211);
+    border-radius: 10px;
+    width: 50%;
+    outline: none;
+    cursor: pointer;
+}
+button:active{
+    outline: none;
+    background-color: cadetblue;
+    color: black;
+}
+.ques>button{
+    width: 150px;
+}
+#warn{
+    color: red;
+    font-weight: normal;
+    font-size: 1em;
+    font-style: oblique;
+    width: fit-content;
+    margin: none;
+    border-bottom: 1px solid red ;
+}
+#clock{
+    width: 100px;
+    height: fit-content;
+    font-size: 1.4em;
+    margin: 0 auto;
+    color: red;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ques{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+label {
+    display: inline-block;
+    margin: 4px;
+    padding: 8px;
+    border: 1px solid whitesmoke;
+    -webkit-border-top-left-radius: 50px;
+    -webkit-border-bottom-right-radius: 50px;
+    -moz-border-radius-topleft: 50px;
+    -moz-border-radius-bottomright: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    width: 50%;
+    min-width: 100px;
+    cursor: pointer;
+}
+label:hover{
+    background-color: wheat;
+    color: teal;
+    font-weight: bold;
+}
+.ques>p{
+font-size: 1.4em;
+margin: 16px 8px;
+}

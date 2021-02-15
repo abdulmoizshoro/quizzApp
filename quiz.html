@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2 id="warn">Warning: DO NOT RELOAD THE PAGE</h2>
+    <a href="index.html">Logout</a>
+    <div id="quiz">
+        <h1>JavaScript Quiz</h1>
+        <div id="clock">
+            <h3 id="min">0</h3>
+            <h3>:</h3>
+            <h3 id="sec">00</h3>
+        </div>
+        <div class="ques" id="div">
+            <p id="question"></p>
+            <label>
+                <input type="radio" name="option" value="1" onclick="enable()">
+                <span id="option1"></span>
+            </label><br>
+            <label>
+                <input type="radio" name="option" value="2" onclick="enable()">
+                <span id="option2"></span>
+            </label> <br>
+            <label>
+                <input type="radio" name="option" value="3" onclick="enable()">
+                <span id="option3"></span>
+            </label><br>
+            <button id="btn" onclick="nextQuestion()" disabled>Next Question</button>
+        </div>
+    </div>
+    <div id="result" class="main" style="display: none;">
+        <h2 id="resul"></h2>
+        <h2 id="perc"></h2>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

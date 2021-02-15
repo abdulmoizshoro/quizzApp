@@ -1,0 +1,48 @@
+body{
+    background: url("main.jpg");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+     background-size: 100% 100%;
+     color:  white;
+}
+
+h1 {
+    display: block;
+    font-size: 3em;
+    font-weight: bold;
+}
+h3{
+    font-size: 2em;
+    font-weight: bold;
+}
+a{
+    color: blue;
+    font-size: 1.3em;
+
+}
+.main2{
+    width: 40%;
+    height: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+button{
+    width: 30%;
+    height: 48px;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    color: whitesmoke;
+    margin: 8px 0;
+    border: 1px solid rgb(93, 166, 211);
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:active{
+    outline: none;
+    background-color: cadetblue;
+    color: black;
+}
